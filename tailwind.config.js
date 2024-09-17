@@ -4,6 +4,12 @@ module.exports = {
     "./app/**/*.{js,jsx,ts,tsx}",
     "./components/**/*.{js,jsx,ts,tsx}",
   ],
-  theme: {},
+  theme: {
+    colors: {
+      background: "#B986EF",
+      'background-alt': "#FFFFFF",
+      green: '#00E035'
+    }
+  },
   plugins: [],
 };
